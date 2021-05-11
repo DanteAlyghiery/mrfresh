@@ -1359,7 +1359,7 @@ label, a{ /*при наведении на стрелки или переклю�
     .wrapper-slider {
         padding: 0;
         width: 100%;
-        height: 40em;
+        height: 100%;
         align-items: start;
     }
     .content_left-wrapper {
@@ -1379,8 +1379,8 @@ label, a{ /*при наведении на стрелки или переклю�
     }
     .image-sert {
         border-radius: 10px !important;
-        width: 50%;
-        height: 60%;
+        width: 80%;
+        height: 90%;
     }
     /* arrows */
     /*  LEFT */
