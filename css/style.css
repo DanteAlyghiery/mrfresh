@@ -1244,6 +1244,7 @@ label, a{ /*при наведении на стрелки или переклю�
     .header__wr {
         width: 100vw;
         background-size: 100vw 100vh !important;
+
     }
 
     .header {
@@ -1252,12 +1253,18 @@ label, a{ /*при наведении на стрелки или переклю�
         z-index: 5;
         width: 100vw;
     }
+    .header-hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
     .header__logo {
        
     }
     .sub-tittle-hero {
-        display: none;
+        margin-top: 40%;
+        font-size: 24px;
     }
     .btn-hero {
         display: none;
