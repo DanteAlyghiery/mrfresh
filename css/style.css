@@ -666,9 +666,8 @@ label, a{ /*при наведении на стрелки или переклю�
     line-height: 60px;
 }
 .footter-logo {
-    width: 10%;
-    height: 10%;
-    align-self: center;
+    position: relative;
+    right:5%;
 }
 .footter-logo-picture {
     display: flex;
@@ -708,7 +707,10 @@ label, a{ /*при наведении на стрелки или переклю�
 
     margin: 2em; 
 }
-
+.footter-logo {
+    position: relative;
+    left: 43%;
+}
 .footter-content {    
     justify-content: center;
 }
@@ -764,6 +766,10 @@ label, a{ /*при наведении на стрелки или переклю�
     }
     .img_s {
         padding-bottom: 20px;
+    }
+    .footter-logo {
+        position: relative;
+        left: 42%;
     }
 }
 
@@ -1112,6 +1118,10 @@ label, a{ /*при наведении на стрелки или переклю�
     .fb-icon {
         width: 40px;
         height: 40px;
+    }
+    .footter-logo {
+        position: relative;
+        left: 40%;
     }
 }
 
@@ -1493,9 +1503,8 @@ label, a{ /*при наведении на стрелки или переклю�
         background-size: cover;
     }
     .footter-logo {
-
-        align-self: center !important;
-       
+        position: relative;
+        left: 27%;
     }
     .footter-logo-picture {
         width: 70px !important;
