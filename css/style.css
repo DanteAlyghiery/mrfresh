@@ -886,11 +886,11 @@ label, a{ /*при наведении на стрелки или переклю�
         width: 10px;
         letter-spacing: 25px ;
         color: blue;
-        mix-blend-mode: difference ;
+        mix-blend-mode: multiply ;
     } 
     .menu-tittle-F {
         color: blue;
-        mix-blend-mode: difference ;
+        mix-blend-mode: multiply ;
 
     }
     .menu__body._active {
