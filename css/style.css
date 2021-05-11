@@ -1263,7 +1263,7 @@ label, a{ /*при наведении на стрелки или переклю�
        
     }
     .sub-tittle-hero {
-        margin-top: 40%;
+        margin-top: 25%;
         font-size: 24px;
     }
     .btn-hero {
@@ -1303,11 +1303,11 @@ label, a{ /*при наведении на стрелки или переклю�
         width: 10px;
         letter-spacing: 10px ;
         color: blue;
-        mix-blend-mode: difference ;
+        mix-blend-mode: multiply ;
     } 
     .menu-tittle-F {
         color: blue;
-        mix-blend-mode: difference ;
+        mix-blend-mode: multiply ;
 
     }
     /* ======================= ABOUT US =============== */
