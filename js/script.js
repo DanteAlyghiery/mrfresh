@@ -69,7 +69,13 @@ $(function() {
   });
 });
 
+let btn = document.getElementById('btn');
+let btnText = document.getElementById('btnText');
 
+btn.onclick = function() {
+    btnText.innerHTML = "Дякуємо!";
+    btn.classList.add("active");
+}
 
 
 

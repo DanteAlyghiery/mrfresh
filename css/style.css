@@ -7,7 +7,10 @@ html {
 }
 
 /* header */
-
+p {
+    margin: 0;
+    padding: 0;
+}
 a, a:hover {
     text-decoration: none;
 }
@@ -216,8 +219,8 @@ li {
     opacity: 1;
 }
 
-.btn-hero {
-    margin-top: 4%;
+button {
+    margin-top: 2%;
     color: white;
     font-size: 20px;
     text-align: center;
@@ -234,33 +237,55 @@ li {
     overflow: hidden;
     cursor: pointer;
 }
-.btn-hero:hover {
-    color:  #e6e949;
-    background: transparant;
-}
 .check-box {
     width: 80px;
     height: 80px;
     border-radius: 40px;
-    box-shadow: 0 0 12px -2px rgba(0,0,0,0.5);
+    box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0,5); 
     position: absolute;
     top: 0;
-    right: 0;
+    right: -40px;
     opacity: 0;
+    background: #ebf16d;
 }
 .check-box svg {
     width: 40px;
     margin: 20px;
 }
+
 svg path {
     stroke-width: 3;
-    stroke: #fff;
+    stroke:#fff;
     stroke-dasharray: 34;
     stroke-dashoffset: 34;
     stroke-linecap: round;
 }
+.active  { 
+    background: #b8e9cb;
+    transition : 1s;
+}
+.active .check-box  {
+    right: 0;
+    opacity: 1;
+    transition: 1s;
+}
+.active p {
+    margin-right: 125px;
+    transition: 1s;
+}
 
-
+.active svg path {
+    stroke-dashoffset: 0;
+    transition: 1s;
+    transition-delay: 1s;
+}
+.btnText {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+}
 .button-text-hero:hover {
     text-decoration: none;
 }
@@ -753,7 +778,7 @@ label, a{ /*при наведении на стрелки или переклю�
         font-size: 12px;
     }
     .sub-tittle {
-        font-size: 10px;
+        fonts-size: 10px;
         margin: 0px;
     }
     
