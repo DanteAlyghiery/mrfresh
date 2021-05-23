@@ -225,13 +225,14 @@ li {
 }
 
 button {
+    padding: 0px 1.5em ;
     margin-top: 2%;
     color: white;
     font-size: 20px;
     text-align: center;
     border: #e6e949;
     border-radius: 40px;
-    width: 190px;
+    width: fit-content;
     height: 60px;
     background: #e6e949;
     justify-content: center;
@@ -798,6 +799,12 @@ label, a{ /*при наведении на стрелки или переклю�
 
 /*  Адаптив для планшетів */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+    a {
+        text-decoration: none;
+    }
+
+
+
     .header__wr {
         background: url('../images/header/for768.png');
         background-size: contain;
@@ -877,6 +884,9 @@ label, a{ /*при наведении на стрелки или переклю�
         top: 50%;
         transform: rotate(40deg) translate(0px,-50%);
     }
+    button .btn-more {
+        width:50px; !important
+    }
 
     /* Верстка меню в бургері */
 
@@ -949,7 +959,9 @@ label, a{ /*при наведении на стрелки или переклю�
     .five {
         margin-top: 15%;
     }
-
+    .lng {
+        margin-left: 20%;
+    }
     /* about Us */
     .wrapper-AboutUs {
         display: block;
@@ -1032,7 +1044,7 @@ label, a{ /*при наведении на стрелки или переклю�
 
         border-radius: 10px !important;
         width: 35vw;
-        height: 50vh;
+        height: 40vh;
         margin-bottom: 15%;
     }
     /* arrows */
@@ -1140,12 +1152,20 @@ label, a{ /*при наведении на стрелки или переклю�
         margin-bottom: 7%;
     }
     .fb-icon {
-        width: 40px;
-        height: 40px;
+        width: 35px;
+        height: 35px;
     }
+    .inst-icon {
+        width: 35px;
+        height: 35px;
+    }
+
     .footter-logo {
         position: relative;
         left: 40%;
+    }
+    .iccon-link:hover {
+        color: white ;
     }
 }
 
