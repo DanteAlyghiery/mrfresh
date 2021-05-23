@@ -58,11 +58,16 @@ body {
 
 
 /*======================================== hero block ==========================*/
-
+.wrapper {
+    width: 100vw;
+}
+.content {
+    width: 100vw;
+}
 
 .header__wr {
     display: block; 
-    width: 100vw;
+    width: auto;
     height: 100vh;
     background: url("../images/header/bg.png");
     background-size: contain;
@@ -72,7 +77,7 @@ body {
     flex-direction: row;
     background: white;
     display: flex;
-	min-width: 100wv;
+	min-width: 100vw;
 	margin: 0 auto;
 	display: flex;
 
@@ -185,7 +190,7 @@ li {
     font-weight: bold;
     font-size: 38px;
     height: 40px;
-    color: #e6e949;
+    color:#e6e949;
     letter-spacing: 5px;
     word-spacing: 15px;
     width: 100vw;
@@ -226,8 +231,8 @@ button {
     text-align: center;
     border: #e6e949;
     border-radius: 40px;
-    width: 270px;
-    height: 80px;
+    width: 190px;
+    height: 60px;
     background: #e6e949;
     justify-content: center;
     text-align: center;
@@ -238,9 +243,9 @@ button {
     cursor: pointer;
 }
 .check-box {
-    width: 80px;
-    height: 80px;
-    border-radius: 40px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
     box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0,5); 
     position: absolute;
     top: 0;
@@ -249,8 +254,8 @@ button {
     background: #ebf16d;
 }
 .check-box svg {
-    width: 40px;
-    margin: 20px;
+    width: 30px;
+    margin: 10px;
 }
 
 svg path {
@@ -270,7 +275,7 @@ svg path {
     transition: 1s;
 }
 .active p {
-    margin-right: 125px;
+    margin-right: 60px;
     transition: 1s;
 }
 
@@ -561,17 +566,8 @@ label, a{ /*при наведении на стрелки или переклю�
     text-align: center;
     opacity: 0.5;
 }
-.btn-more-card {
-
-    border: none ;
-    margin-bottom: 1em;
-    padding: 0.6em 1.7em;
-    border-radius: 60px;
-    color: white;
-    background:  #ffe380d4;
-    font-size: 18px;
-    letter-spacing: 2px;
-    font-weight: 400;
+.card-link {
+    margin: 10px auto;
 }
 .btn-more:hover {
     background: white;
@@ -934,13 +930,16 @@ label, a{ /*при наведении на стрелки или переклю�
         margin: 0 auto;
         padding: 0;
         width: 100vw !important;
-        margin-bottom: 10%;
+        margin-top: 7%;
+        margin-bottom: 7%;
+        height: 90%;
+        justify-content: space-around;
     }
     .menu__link {
         display: flex;
         flex-direction: column;
-        height: 15vh;
-        justify-content: space-around;
+        height:auto;
+
         color: #000;
         font-size: 25px;
     }
@@ -1293,15 +1292,12 @@ label, a{ /*при наведении на стрелки или переклю�
         flex-direction: column;
         align-items: center;
     }
-
-    .header__logo {
-       
-    }
     .sub-tittle-hero {
+        margin: 0 auto;
         margin-top: 25%;
         font-size: 24px;
     }
-    .btn-hero {
+    #btn {
         display: none;
     } 
 
@@ -1481,7 +1477,9 @@ label, a{ /*при наведении на стрелки или переклю�
     .card-photo {
        width: 250px;
     }
-
+    .sub-tittle-hero {
+        color: rgb(243, 178, 0);
+    }
 
     .img_s {
         padding: 0px 0px 20px 0px;
