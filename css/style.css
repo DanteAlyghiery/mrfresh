@@ -1177,7 +1177,9 @@ label, a{ /*при наведении на стрелки или переклю�
 
 
     /* ===========================menu burger =====================*/
-
+    .title-block-dark {
+        padding: 6vh 0 3vh 0;
+    }
     .left-header {
         display: flex;
         flex-direction: row;
@@ -1380,7 +1382,7 @@ label, a{ /*при наведении на стрелки или переклю�
         display: block;
     }
     .body__aboutUs {
-        height: 100%;
+        height: 100vh;
         flex-direction: column;
     }
 
@@ -1391,8 +1393,8 @@ label, a{ /*при наведении на стрелки или переклю�
     }
     .aboutUS-blank {
         width: 100%;
-        height: fit-content;
-        background-image: linear-gradient(180deg, rgba(250, 249, 255, 1) 10%, rgba(250, 249, 255, 0.6)), url("../images/body/abotUS/pair_BG.png");
+        height: 100%;
+        background-image: linear-gradient(180deg, rgb(255, 255, 255) 20%, rgba(250, 249, 255, 0.6)), url("../images/body/abotUS/pair_BG.png");
         background-size: cover;
 
     }
@@ -1430,8 +1432,8 @@ label, a{ /*при наведении на стрелки или переклю�
     }
     .image-sert {
         border-radius: 10px !important;
-        width: 80%;
-        height: 90%;
+        width: 70%;
+        height: 80%;
     }
     /* arrows */
     /*  LEFT */
@@ -1498,7 +1500,7 @@ label, a{ /*при наведении на стрелки или переклю�
        width: 250px;
     }
     .sub-tittle-hero {
-        color: rgb(243, 178, 0);
+        color: rgb(236, 236, 12);
     }
 
     .img_s {
@@ -1561,5 +1563,9 @@ label, a{ /*при наведении на стрелки или переклю�
     .footter-content {
         display: flex;
         justify-content: center;
+
+    }
+    .footter-content > div {
+        margin: 1em;
     }
 }
