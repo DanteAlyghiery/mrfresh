@@ -80,10 +80,16 @@ body {
 	min-width: 100vw;
 	margin: 0 auto;
 	display: flex;
-
 	align-items: center;
 	justify-content: space-between;
 	min-height: 70px;
+    position: fixed;
+    z-index: 1;
+    animation: movedown 1s linear 1 ;
+    opacity: 1;
+
+}
+.header:hover {
 
 }
 .header__menu {
