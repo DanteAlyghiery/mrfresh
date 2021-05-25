@@ -339,7 +339,7 @@ svg path {
 }
 
 .aboutUs__text {
-    padding-top: 7%;
+    padding: 7% ;
     display: flex;
     flex-direction: column;
     font-size: 18px;
@@ -743,6 +743,9 @@ label, a{ /*при наведении на стрелки или переклю�
     justify-content: center;
 }
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1279px) {
+    .header {
+        position: fixed;
+    }
     .header__menu {
         padding: 0px 2%;
     }
@@ -808,7 +811,10 @@ label, a{ /*при наведении на стрелки или переклю�
     a {
         text-decoration: none;
     }
+    .header {
+        position: absolute;
 
+    }
 
 
     .header__wr {
@@ -822,9 +828,6 @@ label, a{ /*при наведении на стрелки или переклю�
         display: flex;
         flex-direction: row;
         
-    }
-    .header {
-        height: 10%;
     }
     .header__logo {
         height: 100%;
@@ -919,9 +922,14 @@ label, a{ /*при наведении на стрелки или переклю�
         position: absolute;
         z-index: 3;
     }
+    .menu__body._active {
+        height: 100vh;
+        transition: 3s linear;
+        z-index: 2;
+        
+    }
     .menu-tittle {
         position: relative;
-        z-index: 1;
         display: flex;
         justify-content: center;
         margin: 0 auto;
@@ -1049,9 +1057,12 @@ label, a{ /*при наведении на стрелки или переклю�
     .image-sert {
 
         border-radius: 10px !important;
-        width: 35vw;
-        height: 40vh;
+        width: 40vw;
+        height: 50vh;
         margin-bottom: 15%;
+    }
+    .image-sert:active {
+        transform: scale(2);
     }
     /* arrows */
     /*  LEFT */
